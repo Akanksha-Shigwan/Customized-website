@@ -1,0 +1,174 @@
+.navbar{
+    justify-content: space-between;
+    background-color: rgb(20, 124, 20);
+}
+.navbar img{
+    width: 60px;
+    height: 60px;
+    margin-left: 35px;
+}
+.navbar ul{
+    padding-right: 35px;
+}
+.navbar ul li .nav-link{
+    color: #fff;
+}
+.navbar ul .login:hover{
+    background-color: rgb(62, 153, 62);
+    color: #fff;
+    box-shadow: inset 2px 2px 2px #fff, 2px 2px 2px #fff;
+}
+
+.carousel-inner .carousel-item img{
+    height: 90vh;
+}
+.carousel-inner .carousel-item h5{
+    color: #000;
+    padding-bottom: 20%;
+    font-size: 4rem;
+}
+
+
+/*Contact*/
+form{
+    text-align: center;
+    margin-top: 3%;
+}
+form .form{
+    padding: 15px;
+    border-radius: 50px;
+    background: linear-gradient(145deg, #cacaca, #f0f0f0);
+    box-shadow:  20px 20px 60px #bebebe,
+             -20px -20px 60px #ffffff;
+    margin-left: 30%;
+    margin-right: 30%;
+}
+form .mb-3 .form-control{
+    margin-left: 30%;
+    width: 40%;
+}
+
+/*Footer*/
+.card{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 7%;
+    background-color: #000;
+    color: #fff;
+}
+.card .card-header{
+    margin-top: 5px;
+    background-color: rgb(66, 66, 66);
+}
+
+/*Services*/
+.card-items{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+.card-box{
+    border: 1px solid #000;
+}
+.card-items .card-box{
+    margin-left: 30px;
+    margin-bottom: 30px;
+}
+
+@media screen and (max-width: 700px){
+    .card-items{
+        display: flex;
+        flex-direction: column;
+    }
+    .card-items .card-box{
+        margin-top: 10px;
+    }
+}
+
+/*Offers*/
+.offers .offers-heading{
+    justify-content: center;
+    text-align: center;
+    margin-top: 20px;
+}
+.offers .card-con{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.offers .card-con .card-body{
+    border-radius: 50px;
+    background: linear-gradient(145deg, #cacaca, #f0f0f0);
+    box-shadow:  20px 20px 60px #bebebe,
+             -20px -20px 60px #ffffff;
+}
+.offers .card-con .card-body:hover{
+    border-radius: 50px;
+    background: #e0e0e0;
+    box-shadow: inset 20px 20px 60px #bebebe,
+            inset -20px -20px 60px #ffffff;
+}
+.special{
+    justify-content: center;
+    text-align: center;
+    /* border: 1px solid #000; */
+    margin-top: 20px;
+    margin-left: 30px;
+}
+@media screen and (max-width: 700px) {
+    .offers .card-con{
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+/*Regular.html*/
+.regular{
+    justify-content: center;
+    text-align: center;
+    margin-top: 30px;
+}
+.regular .regular-heading{
+    justify-content: center;
+    text-align: center;
+    margin-top: 20px;
+}
+.regular .regular-content{
+    margin-top: 30px;
+}
+.regular .regular-content .card-regular{
+    margin-left: 25%;
+    width: 50%;
+}
+
+
+/*Special diet*/
+.special-heading{
+    justify-content: center;
+    text-align: center;
+    margin-top: 20px;
+}
+.special-diet{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 25px;
+}
+.special-diet .card-special{
+    border: 1px solid black;
+    margin: 10px;
+}
+@media screen and (max-width: 700px) {
+    .special-diet{
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+
+/*Sport.html*/
+.carousel .carousel-item .img-text{
+    margin-bottom: 35px;
+}
